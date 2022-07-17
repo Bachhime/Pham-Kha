@@ -1,0 +1,368 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+@font-face{
+	src:url("../Font/orkney-regular.otf");
+	font-family:ED;
+}
+.header{
+/*	background:rgba(18,18,18,1.00);*/
+	position:relative;
+	width: 100%;
+	z-index: 1000;
+}
+.logo {
+	height: 40px;
+	text-decoration: none;
+	margin-left: 20px 
+}
+.img{
+	width: 160px;
+	margin-top: 5px
+}
+.icon a{
+	margin: 7px 0 0 5px;
+	color:rgba(15,15,15,1.00);
+	width: 35px
+}
+.icon a:hover{
+	opacity: .8;
+	color:rgba(223,175,52,1.00);
+}
+.navigation ul{
+	font-family: ED;
+	list-style: none;
+}
+.navigation li a{
+	margin: 0 40px 0 19px;
+	text-decoration: none;
+	color:rgba(15,15,15,1.00);
+	font-size: 19px;
+	font-weight: 590
+}
+.navigation li a:hover{
+	opacity: .8;
+	color:rgba(223,175,52,1.00);
+}
+.banner{
+	height: 100vh;
+	overflow: hidden;
+	background-attachment: fixed;
+}
+.banner video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+.navigation2 ul{
+	font-family: ED;
+	list-style: none;
+}
+.navigation2 li a{
+	margin: 0 40px 0 19px;
+	text-decoration: none;
+	color:rgba(15,15,15,1.00);
+	font-size: 19px;
+	font-weight: 590
+}
+.navigation2 h2{
+	margin-left: 19px;
+	letter-spacing: 1px;
+	font-size: 28px;
+	color: aliceblue;
+}
+.navigation2 li a{
+	color: white;
+	word-spacing: 3px;
+}
+.banner2{
+	background: url("../keita-okada-eldenring-01-4k.jpg");
+	padding:  50px 120px ;
+	background-size:cover;
+	height: 950px;
+	background-attachment: fixed;
+}
+.banner2 video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.box1{
+	width: 190px;
+	overflow: hidden;
+	margin: 36px 10px;
+}
+.img1{
+	object-fit: cover;
+	width: 150px;
+}
+.box2{
+	overflow: hidden;
+	margin: 23px 5px
+}
+.img2{
+	object-fit: cover;
+	width: 70px;
+}
+.box3{
+	overflow: hidden;
+	margin: 12px 0 0 6px ;
+}
+.img3{
+	object-fit: cover;
+	width: 65px;
+}
+.img4{
+	object-fit: cover;
+	width: 95px;
+	margin: 12px 1px
+}
+.img5{
+	object-fit: cover;
+	width: 1000px;
+	margin-left: 124px;
+}
+.box6{
+	overflow: hidden;
+}
+.img6{
+	object-fit: cover;
+	width: 90px;
+}
+.box7{
+	overflow: hidden;
+}
+.img7{
+	object-fit: cover;
+	width: 60px;
+}
+.box8{
+	overflow: hidden;
+}
+.img8{
+	object-fit: cover;
+	width: 45px;
+	margin: 5px 7px
+}
+.btn4{
+	position:relative;
+	background:rgba(223,175,52,1.00);
+	color:aliceblue;
+	padding: 8px;
+	width: 350px;
+	margin-bottom: 10px;
+}
+.btn3{
+	position:relative;
+	background:rgba(223,175,52,1.00);
+	color:aliceblue;
+	padding: 8px;
+	width: 150px;
+}
+.box{
+	width: 700px;
+	overflow: hidden;
+	margin-left: 40px
+}
+.box p{
+	color: white;
+	margin-top: 5px;
+	font-family: ED;
+	font-size: 15px
+}
+.box h1{
+	color:white;
+	font-size: 23px;
+	font-family: ED;
+}
+.box0{
+	margin: 30px;
+	border: 2px solid;
+	height: 50%;
+	width: 50%;
+}
+.box00{
+	padding: 30px 589px;
+}
+.box00 h1{
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 30px;
+	font-family: ED;
+}
+.btn4{
+	position:relative;
+	background:rgba(223,175,52,1.00);
+	color:aliceblue;
+	text-align: center;
+}
+.banner3{
+	background: url("../FXsyoBGVQAIHZ8F.jpg");
+	background-size:cover;
+	height: 890px;
+	background-attachment: fixed;
+}
+/*
+.box000{
+	width: 375px;
+	display: inline-block;
+	margin: 0 150px
+}
+.img9{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}*/
+.img0{
+	width: 230px;
+	margin: 50px 3px;
+}
+.img00{
+	width: 230px;
+	margin: 50px 12px 20px;
+}
+.banner4{
+	background: url("../FXsVhpKVsAAiVQ3.jpg");
+	background-size:cover;
+	height: 780px;
+}
+.btn{
+	position:relative;
+	top: 50px;
+	background:rgba(223,175,52,1.00);
+	color:aliceblue;
+	padding: 10px;
+	font-size: 20px;
+	width: 350px;
+}
+.boxtext{
+	width: 250px;
+	height: 280px;
+	position:absolute;
+	font-family: ED;
+	margin:  410px 880px;
+}
+.boxtext p{
+	width: 470px;
+	color:aliceblue;
+	margin: 55px 0 ;
+	position: relative;
+}
+.boxtext2{
+	width: 250px;
+	height: 280px;
+	position: absolute;
+	font-family: ED;
+	margin:  30px 130px;
+	text-align: end
+}
+.boxtext2 p{
+	width: 470px;
+	color:aliceblue;
+	margin: 55px 0 ;
+	position: relative;
+	justify-content: end;
+	align-content: end
+}
+.btn2{
+	position:relative;
+	top: 50px;
+	background:rgba(223,175,52,1.00);
+	color:aliceblue;
+	padding: 10px;
+	font-size: 20px;
+	width: 350px;
+	left: 90px;
+}
+.boxvid{
+	width: 640px;
+	overflow: hidden;
+	margin: 0px 550px
+}
+.imgvid{
+	object-fit: cover;
+	width: 530px;
+	margin: 30px 145px;
+}
+.boxvid2{
+	width: 640px;
+	overflow: hidden;
+	margin: 10px 150px;
+}
+.imgvid2{
+	object-fit: cover;
+	width: 550px;
+	margin: 60px 250px;
+}
+.box000{
+	width: 1519px;
+	height: 150px;
+	padding: 40px 650px;
+}
+.box000 h2{
+	text-align: center;
+	font-size: 20px;
+	font-family: ED;
+}
+.box000 a{
+	text-decoration: none;
+	color: white;
+}
+.box000 a:hover{
+	opacity: .8;
+	color: rgba(223,175,52,1.00);
+}
+.btn5{
+	position:relative;
+	background:rgba(223,175,52,1.00);
+	text-align: center
+}
+.btn5:hover{
+	opacity: .8;
+	background:white;
+}
+.banner0{
+	width: 1519px;
+	height: 150px;
+	background: rgba(21,21,21,1.00);
+}
+.footer{
+	background:white;
+	width: 1519px;
+	height: 150px
+}
+.navigation0 a{
+	margin: 0 40px 0 19px;
+	text-decoration: none;
+	color:rgba(15,15,15,1.00);
+	font-size: 19px;
+	font-weight: 590;
+}
+.navigation0 a:hover{
+	opacity: .8;
+	color:rgba(217,9,13,1.00);
+}
+.navigation0 ul{
+	font-family: ED;
+	list-style: none;
+}
+.boxxxxxxxxxxxxx{
+	height: 100px;
+	background:rgba(9,8,8,1.00);
+}
+.box0000{
+	width: 1519px;
+	text-align: center;
+	padding: 20px 0;
+}
+.navigation00 a{
+	text-decoration: none;
+	color:aliceblue;
+	font-weight: 590;
+	font-size: 20px;
+	font-family: ED;
+}

@@ -1,0 +1,121 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+.container-fluid{
+	width: 100%;
+}
+.container2{
+	display: flex;
+	width: 1200px;
+	margin: 30px
+}
+.container3{
+	width: 1200px;
+	margin: 20px
+}
+ion-icon {
+	font-size: 20px;
+}
+.container{
+	width: 1100px;
+	margin: 0 auto;
+}
+.container4{
+	width: 1385px;
+	height: 570px;
+}
+.container5{
+	width: 1485px;
+}
+.container6{
+	width: 1385px;
+	height: 780px;
+}
+.giam{
+	opacity: .2
+}
+.margintop{
+	margin-top: 9px;
+}
+.marginbottom{
+	margin-bottom: 40px;
+}
+.cach{
+	justify-content: flex-end;
+}
+.cach4{
+	justify-content: space-between;
+}
+.cach3{
+	align-content: space-around;
+}
+.cachphai{
+	align-content: flex-end;
+}
+.cachphai2{
+	align-self: flex-end;
+}
+.cach2{
+	align-items: center;
+}
+.giua{
+	text-align:center;
+}
+.giua2{
+	justify-content: center;
+}
+.phai{
+	text-align: end;
+}
+.trai{
+	text-align:justify;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap
+}
+.row2{
+		flex-direction: row-reverse;
+}
+.row>[class*="col-"]{
+	padding: 12px;
+}
+.col-1{
+	width: 8.33%
+}
+.col-2{
+	width: 16.66%
+}
+.col-3{
+	width: 25%
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%
+}
+.col-6{
+	width: 50%
+}
+.col-7{
+	width: 58.33%
+}
+.col-8{
+	width: 66.66%
+}
+.col-9{
+	width: 75%
+}
+.col-10{
+	width: 83.33%
+}
+.col-11{
+	width: 91.66%
+}
+.col-12{
+	width: 100%
+}
